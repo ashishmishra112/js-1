@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> JS Functions </title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+  <div class="ashu">  
+
+    <h1> JavaScript Functions </h1>
+  
+    <br>
+    
+    <p>
+      A JavaScript function is a block of code designed to perform a particular task.
+    <br>
+      A JavaScript function is executed when "something" invokes it (calls it).
+    </p> 
+  
+    
+  
+    </div>
+  
+    <div id="demo" style="width:100%; display: flex; justify-content: center;"> 
+    
+      <div id="demo2" >
+        <img src="images/img1.jpeg" style="width:500px;  height:350px;" id="image" >
+      </div>
+  
+    </div>
+
+
+    <div class="btns"> 
+
+      <button onclick="changeimg()"> Previous </button>   <button  onclick=" backimg()"> Next </button>
+
+    </div>
+
+
+    <script>
+
+      let image = document.getElementById("image")
+      
+      function changeimg()
+      {
+        image.src = "images/img2.jpg";
+      }
+      function backimg(){
+        image.src = "images/img1.jpeg";
+      }
+
+    </script>
+
+</body>
+</html>
